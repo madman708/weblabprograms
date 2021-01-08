@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+    <p id="myp1" class="myp1">TEXT GROWING</p>
+    <p id="myp2" class="myp2">TEXT SHRINKING</p>
+   <!-- <style>
+        .myp1{
+            margin-top: 100px;
+            text-align: center;
+        }
+        .myp2{
+            margin-bottom: 200px;
+            text-align: center;
+        }
+    
+    
+    </style>-->
+    
+    </body>
+<script>
+ var size=10;
+    var mywait1=setInterval(mytext1,100);
+    function mytext1()
+    {
+        if(size<51)
+            {
+                size=size+1;
+                document.getElementById("myp1").style.fontSize=(size+'pt');
+                document.getElementById("myp1").style.color="red";
+                document.getElementById("myp2").style.visibility="hidden";
+            }
+        else{
+            clearInterval(mywait1);
+            mywait1=setInterval(shrinktext1,100);
+            document.getElementById("myp2").style.visibility="visible";
+        }
+   }
+   function shrinktext1()
+    {
+        if(size>5)
+            {
+                size=size-1;
+                document.getElementById("myp2").style.fontSize=(size+'pt');
+                document.getElementById("myp2").style.color="blue";
+            }
+        else{
+            clearInterval(mywait1);
+        }
+    }
+    
+    
+    
+    </script>
+
+
+
+</html>

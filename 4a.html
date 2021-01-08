@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+ <title>4A PROGRAM</title>   
+    </head>
+<script>
+ function vow(st)
+    {
+        var pos;
+        pos=st.search(/[aeiouAEIOU]/);
+        if(pos<0)
+            alert("pattern not found");
+        else
+            alert("position of leftmost vowel is "+(pos+1));
+    }
+    
+    
+    
+    
+    </script>
+    <body>
+    <form>
+     <p>Enter the text</p>
+        <input type="text" id="voweltext"/>
+        <input type="button" value="clickhere" onclick="vow(voweltext.value);"/>
+        
+        
+        
+        
+        
+        
+        </form>
+    
+    
+    
+    </body>
+
+
+
+
+
+</html>

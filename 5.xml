@@ -1,0 +1,61 @@
+<?xml-stylesheet type="text/css" href="5.css"?>
+<!DOCTYPE HTML>
+<html>
+<head>
+  <h1>STUDENT DESCRIPTION</h1>  
+    
+    
+    </head>
+<students>
+<student>
+ <usn>USN: 1OX17CS074</usn>
+    <name>NAME: RACHANA RAO</name>
+    <college>COLLEGE:THE OXFORD COLLEGE OF ENGINEERING</college>
+    <branch>BRANCH:COMPUTER SCIENCE AND ENGINEERING</branch>
+    <year>YEAR: 2021</year>
+    <email>EMAIL:rachanara123@gmail.com</email>
+    
+    
+    
+    </student>    
+ <student>
+ <usn>USN: 1OX17CS074</usn>
+    <name>NAME: RACHANA RAO</name>
+    <college>COLLEGE:THE OXFORD COLLEGE OF ENGINEERING</college>
+    <branch>BRANCH:COMPUTER SCIENCE AND ENGINEERING</branch>
+    <year>YEAR: 2021</year>
+    <email>EMAIL:rachanara123@gmail.com</email>
+    
+    
+    
+    </student>    
+    <student>
+ <usn>USN: 1OX17CS074</usn>
+    <name>NAME: RACHANA RAO</name>
+    <college>COLLEGE:THE OXFORD COLLEGE OF ENGINEERING</college>
+    <branch>BRANCH:COMPUTER SCIENCE AND ENGINEERING</branch>
+    <year>YEAR: 2021</year>
+    <email>EMAIL:rachanara123@gmail.com</email>
+    
+    
+    
+    </student>    
+       
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </students>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>4B PROGRAM</title></head>
+<script>
+ function rev()
+    {
+        var n=prompt("Enter the number"," ");
+        n=parseInt(n);
+        var temp=0,rev=0;
+        while(n>0)
+            {
+                temp=n%10;
+                rev=rev*10 +temp;
+                n=n/10;
+                n=parseInt(n);
+            }
+        document.write("reversed number is ",rev);
+    }
+    
+    
+    
+    
+    </script>
+<body>
+ <form>
+    
+  <input type="button" value="enter no" onclick="rev();"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </form>   
+    
+    
+    
+    
+    
+    
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
